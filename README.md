@@ -32,10 +32,8 @@ $ composer require vlucas/phpdotenv
 Configure the `.env` file with your application credentials as well as your Sinch phone number assigned to your Voice app from your [dashboard](https://dashboard.sinch.com/voice/apps/) and the number you want to call:
 
 ```bash
-    KEY="YOUR_application_key"
-    SECRET="YOUR_application_secret"
-    CLI="YOUR_Sinch_number"
-    TO="YOUR_destination_phone_number"
+KEY="YOUR_application_key"
+SECRET="YOUR_application_secret"
 ```
 
 ### Running the script
