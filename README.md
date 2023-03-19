@@ -50,3 +50,11 @@ The call-id will be returned.
 ```json
 {"callId":"8259ba9c-a7c7-464c-b63b-c9388addd0f2"}
 ```
+
+### Client options
+Setting endpoints is possible via the client using `setRegion` method after initialising a new client and before making the callout. [Learn more about endpoints](https://developers.sinch.com/docs/voice/api-reference/#endpoints)
+```php
+$client = new client();
+$client->setRegion("Europe 1");
+$call = $client->call($callout_reque)
+```
