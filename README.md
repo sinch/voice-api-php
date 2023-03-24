@@ -56,5 +56,5 @@ Setting endpoints is possible via the client using `setRegion` method after init
 ```php
 $client = new client();
 $client->setRegion("Europe 1");
-$call = $client->call($callout_reque)
+$call = $client->call($callout_request)
 ```
